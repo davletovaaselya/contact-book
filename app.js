@@ -86,30 +86,6 @@ let todoList = []
 
 
 
-
-
-
-
-
-
-//   todo.addEventListener('click', function(event){
-//     if(event.target.id === 'btn__delete'){
-//         let todoItem = event.target.parentElement;
-//         todo.remove(todoItem);
-//         let tempContactList = todoList.filter(function(record){
-//             return (record !== parseInt(todoList.firstElementChild.lastElementChild.textContent));
-//         });
-//         todoList = tempContactList;
-//         localStorage.setItem('contacts', JSON.stringify(todoList));
-//     }
-// });
-
-
-
-
-
-
-
 //Time
 let clock = document.getElementById('clock');
 function clockTime() {

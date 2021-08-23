@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.countainer {
+    background-image: url(.//img/scott-webb-VxRVVU8d9KY-unsplash\ 1.png);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Saira Condensed', sans-serif;
+    height: 800px;
+    
+}
+
+.title{
+    padding-top: 345px;
+    text-align: center;
+}
+.title__item {
+    font-size: 50px;
+}
+.item_p {
+    font-size: 20px;
+}
+
+.input__list {
+    padding-top: 100px;
+}
+
+.input__item{
+   width: 300px;
+   height: 50px;
+   top: 122px;
+   padding: 0 15px;
+   border-radius: 8%;
+   background-color: rgb(250, 200, 108);
+   border: rgb(250, 200, 108);
+}
+
+.time{
+    padding-top: 370px;
+}
+
+.time__item {
+    font-size: 20px;
+    display: inline-block;
+}
+
+#clock {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.btn__add {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(223, 238, 139);
+    color: grey;
+    border:rgb(223, 238, 139);
+    transition: 1s;
+}
+
+.btn__add:hover {
+    background-color: rgb(186, 212, 39);
+    border:rgb(185, 216, 8);
+}
+
+.wrapper {
+    padding-top: 15px;
+}
+.todo {
+    background-color: rgb(231, 201, 31); }
+    .todo li {
+      font-size: 18px;
+      list-style-type: none; 
+}
+
+
+#btn__delete {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(223, 238, 139);
+    color: grey;
+    border:rgb(223, 238, 139);
+    transition: 1s;
+}
+
+#btn__delete:hover{
+    background-color: rgb(185, 216, 8);
+    border:rgb(186, 212, 39);
+}
